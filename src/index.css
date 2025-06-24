@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-[2.25rem] leading-[2.5rem] font-bold ;
+  }
+
+  h2 {
+    @apply text-[1.875rem] leading-[2.25rem] font-semibold;
+  }
+
+  h3 {
+    @apply text-[1.5rem] leading-[2rem] font-semibold;
+  }
+
+  h4 {
+    @apply text-[1.25rem] leading-[1.75rem] font-medium;
+  }
+
+  h5 {
+    @apply text-[1.125rem] leading-[1.5rem] font-medium;
+  }
+
+  h6 {
+    @apply text-[1rem] leading-[1.5rem] font-medium;
+  }
+
+  p {
+    @apply text-base leading-[1.5rem] text-gray-800;
+  }
+}
+  .btn {
+    @apply px-3 py-1 mx-1 bg-green-50 text-black rounded hover:bg-green-100;
+  }
