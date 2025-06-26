@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
 export default function Herosection(){
+     console.log("Render: Herosection");
     return(
-        <div className="h-screen text-center flex flex-col items-center justify-center bg-gradient-to-br from-green-400 to-blue-600 ">
+        <div className="h-full text-center flex flex-col items-center justify-center bg-gradient-to-br from-blue-300 to-transparent ">
             <h1 >WELCOME TO UNIBLOGS</h1>
             <h3>Tell your tale</h3><br/>
-            <Link to='/'> <button className="btn">Explore</button></Link>
+            <Link to='/blogs'> <button className="btn">Explore</button></Link>
         </div>
     )
 }

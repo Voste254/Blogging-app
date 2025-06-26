@@ -32,5 +32,5 @@
   }
 }
   .btn {
-    @apply px-3 py-1 mx-1 bg-green-50 text-black rounded hover:bg-green-100;
+    @apply px-3 py-1 mx-1 bg-gray-500 text-black rounded hover:bg-gray-400 ;
   }
