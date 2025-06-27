@@ -1,7 +1,6 @@
 import {Link, Outlet} from 'react-router-dom'
 
 export default function Navbar(){
-     console.log("Render: navbar");
 return(
         <div className='h-screen'>
         <div className='h-16 bg-gray-800'>

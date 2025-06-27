@@ -3,7 +3,7 @@ export const News = [
     poster: "Johnte",
     date: "26/6/2025",
     Headline: "Massive Gen-z protests in Kenya",
-    post: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat libero vel dignissim efficitur. In sagittis efficitur dolor in dapibus...............",
+    post: "Kenya’s government has unleashed unprecedented restrictions on media coverage and internet access as thousands of Gen Z - (ote) protesters took to the streets on June 25, 2025, marking the first anniversary of the deadly anti-Finance Bill demonstrations................",
     category: "politics",
     upvotes: 0,
   },

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export default function Footer() {
-     console.log("Render: footer");
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
      

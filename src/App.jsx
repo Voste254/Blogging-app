@@ -3,30 +3,24 @@ import Herosection from "./components/Herosection";
 import Navbar from "./components/Navbar";
 import Blogs from "./components/Blogs";
 import Footer from "./Footer";
-import { useEffect } from "react";
 
- function Layout() {
-  useEffect(() => {
-  console.log("Herosection mounted");
-}, []);
- console.log("Render: layout");
-
-  return (
-    <>
-      <Navbar />
-      <div className="min-h-screen">
-        <Outlet />
-      </div>
-      <Footer />
-    </>
-  );
-}
+//  function Layout() {
+//   return (
+//     <>
+      
+  
+//         <Outlet />
+     
+//       <Footer />
+//     </>
+//   );
+// }
 
 export default function App(){
     return (
     <div className="">
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/" element={<Navbar />}>
         <Route index element={<Herosection />} />
         <Route path="/blogs" element={<Blogs />} />
       </Route>
